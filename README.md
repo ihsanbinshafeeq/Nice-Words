@@ -1,4 +1,4 @@
-# Nice Words 😶‍🌫️
+# Nice Words 
 
 A fun mini web app that decodes  
 **what people say vs what they actually mean**.
