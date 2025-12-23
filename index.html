@@ -1,44 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
   <title>Nice Words</title>
-
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <div class="container">
+  <div class="overlay"></div>
 
+  <div class="card">
     <h1>Nice Words</h1>
-    <p class="subtitle">
-      What They Say Vs What They Actually Mean.
-    </p>
+    <p class="subtitle">What They Say Vs What They Actually Mean</p>
 
     <input 
-      type="text" 
-      id="phraseInput" 
-      placeholder='Type a lie(eg: “we’ll get back to you”)'
+      id="input"
+      type="text"
+      placeholder="type the nice words…"
       autocomplete="off"
-    />
+    >
 
-    <div id="suggestions" class="suggestions"></div>
+    <div id="suggestions"></div>
 
-    <button id="decodeBtn">Reveal meaning</button>
+    <button id="decodeBtn">decode</button>
 
-    <div id="resultBox" class="result hidden">
-      <p class="result-title">What it actually means</p>
-      <p id="resultText"></p>
-    </div>
-
-    <p class="footer">
+    <div id="result"></div>
+     <p class="footer">
       Built by Ihsan · 
       <a href="https://github.com/ihsanbinshafeeq/Nice-Words" target="_blank">
         Open source on GitHub
       </a>
     </p>
-
   </div>
 
   <script src="script.js"></script>
