@@ -8,7 +8,6 @@ A fun mini web app that decodes
 - Real-time suggestions while typing
 - Enter key to decode
 - Clean, playful UI
-- Built with Flask (Python)
 
 ## Example
 **Input:**  
